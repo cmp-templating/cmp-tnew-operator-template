@@ -166,10 +166,12 @@
                 }
 
                 @media (min-width: 1000px) {
-                    .tn-events-calendar-view--month .tn-events-calendar__table-container {
+                    .tn-events-calendar-view--month .tn-events-calendar__table-container,
+                    .tn-events-calendar-view--week .tn-events-calendar__table-container {
                         display: block;
                     }
-                    .tn-events-calendar-view--month .tn-events-calendar__list-container, .tn-events-calendar-view--week .tn-events-calendar__list-container {
+                    .tn-events-calendar-view--month .tn-events-calendar__list-container,
+                    .tn-events-calendar-view--week .tn-events-calendar__list-container {
                         display: none;
                     }
                 }
@@ -177,11 +179,13 @@
 
                 
                 @media (max-width: 1000px) {
-                    .tn-events-calendar-view--month .tn-events-calendar__table-container {
+                    .tn-events-calendar-view--month .tn-events-calendar__table-container,
+                    .tn-events-calendar-view--week .tn-events-calendar__table-container {
                         display: none;
                     }
                     
-                    .tn-events-calendar-view--month .tn-events-calendar__list-container, .tn-events-calendar-view--week .tn-events-calendar__list-container {
+                    .tn-events-calendar-view--month .tn-events-calendar__list-container,
+                    .tn-events-calendar-view--week .tn-events-calendar__list-container {
                         display: block;
                     }
                 }
@@ -3881,6 +3885,19 @@
                     .tn-event-listing-mode-tab-nav__list-item {
                         color: #369436;
                     }
+
+                    .tn-events-calendar__list-container .tn-events-calendar__list {
+                        margin:0px;
+                    }
+                    .tn-events-calendar__list-container .tn-events-calendar__day-event-list-item {
+                        padding-right:5px;
+                    }
+                    .btn.btn-default.btn-lg.tn-btn-datepicker__btn {
+                        padding: 0;
+                    }
+                    .tn-event-listing-view__controls-container {
+                        padding: 5px;
+                        }
 
 
                     /* TNEW Event Page */
@@ -10568,6 +10585,7 @@
                             padding-left: 0;padding-right:0;
                         }
                         }
+                        
                         
                     }
 
