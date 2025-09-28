@@ -275,6 +275,7 @@
                 .tn-btn-datepicker__icon-calendar {
                     color: #141827;
                     margin-bottom: 5px;
+                    overflow: visible;
                 }
 
                 .tn-events-calendar__table {
@@ -561,6 +562,81 @@
                 .appendChild(document.createTextNode(text));
             }
 
+
+            if (document.getElementsByClassName("tn-additional-items-page").length > 0) {
+                let allAddOnsHTML = document.getElementsByClassName("tn-prod-list-item__perf-list-item");
+                let allAddOnsArr = Array.prototype.slice.call( allAddOnsHTML );
+
+
+                function connectURLToAddOn(el) {
+                    let modalButtonWithIDsList = el.getElementsByClassName("tn-btn-modal-ticket-selector");
+                    if (modalButtonWithIDsList.length > 0) {
+                        let modalButtonWithIDs = modalButtonWithIDsList[0];
+                        let prodSeasonID = modalButtonWithIDs.getAttribute("data-tn-production-season-id");
+                        let performanceID = modalButtonWithIDs.getAttribute("data-tn-performance-id");
+
+                        if (!!prodSeasonID && !!performanceID) {
+                            let perfURL = "https://secure.pittsburghkids.org/" + prodSeasonID + "/" + performanceID;
+                            let perfTitleList = el.getElementsByClassName("tn-performance-title");
+                            if (perfTitleList.length > 0) {
+                                let perfTitleSpan = perfTitleList[0];
+                                let perfTitleLink = document.createElement("a");
+                                perfTitleLink.innerText = perfTitleSpan.innerText;
+                                perfTitleLink.href = perfURL;
+                                perfTitleLink.target="_blank";
+                                perfTitleLink.rel="noopener noreferrer";
+                                perfTitleSpan.innerHTML = ""; perfTitleSpan.append(perfTitleLink);
+                            }
+                        }
+                    }
+                }
+                allAddOnsArr.map(el => connectURLToAddOn(el)); 
+
+                function productTypefromHTMLEl(el) {
+                    let prodTypeList = el.getElementsByClassName("tn-product-type-name");
+                    if (prodTypeList.length > 0) {
+                        return prodTypeList[0].innerText;
+                        }
+                    }
+
+                let overarchingDiv = document.getElementById("tn-heading-production-seasons-list"); //add logic for when null
+                overarchingDiv.innerHTML = "";
+
+                function createNewHeaderAndList(prodType, headerName) {
+                    let prodOfTypeArr = allAddOnsArr.filter(el => productTypefromHTMLEl(el) == prodType);
+                    if (prodOfTypeArr.length > 0) {
+
+                        let prodDiv = document.createElement("div");
+                        prodDiv.classList.add("row", "my-3");
+
+                        let prodHeader = document.createElement("h2");
+                        prodHeader.innerHTML = headerName;
+                        prodHeader.classList.add("col-lg-4", "col-md-12");
+
+                        let prodList = document.createElement("ul");
+                        prodList.classList.add("list-unstyled", "col-lg-7", "col-md-12");
+
+                        prodOfTypeArr.map(el => prodList.append(el));
+
+                        prodDiv.append(prodHeader);prodDiv.append(prodList);
+                        overarchingDiv.append(prodDiv);
+                    }
+                }
+
+                let originalProdSeasonList = document.getElementsByClassName("list-unstyled");
+                if (originalProdSeasonList.length > 0) {
+                        originalProdSeasonList[0].innerHTML="";
+                    }
+
+                createNewHeaderAndList("Camp", "other camp dates");
+                createNewHeaderAndList("Lunch", "lunch options");
+                createNewHeaderAndList("Workshop", "workshops");
+                createNewHeaderAndList("Unticketed Event", "events included with admission");
+                createNewHeaderAndList("Admission Dailies", "drop-ins");
+                createNewHeaderAndList("Ticketed Event", "upcoming event tickets");
+            }
+
+
             if (document.getElementsByClassName("tn-event-detail").length > 0) {
                 const eventProductType = document.getElementsByClassName("tn-event-detail")[0].getAttribute("data-tn-product-type-id");
                 if (eventProductType=="13" || eventProductType=="14") { /* drop-ins and unticketed events */
@@ -568,7 +644,11 @@
                     let eventProductionSeasonName = document.getElementsByClassName("tn-prod-season-header__title")[0];
                     eventProductionSeasonName.textContent = eventPerformanceName.textContent;
                     eventPerformanceName.style.display = "none";
-                    document.getElementById("tn-events-detail-best-available-form").style.display = "none";
+                    
+                    let ticketingSection = document.getElementById("tn-events-detail-best-available-form");
+                    if (!!ticketingSection) {
+                        ticketingSection.style.display = "none";
+                    }
 
                     let metaDescription = document.querySelector("meta[name='description']").getAttribute("content"); /*using for time*/
                     if (metaDescription != null) {
@@ -10801,6 +10881,7 @@
                         background-color: #f067a6;
                     }
                     .tn-events-detail-page:has(.tn-event-detail[data-tn-product-type-id="4"]) .tn-prod-season-header__title,
+                    .tn-events-detail-page:has(.tn-event-detail[data-tn-product-type-id="13"]) .tn-prod-season-header__title
                     .tn-events-detail-page:has(.tn-event-detail[data-tn-product-type-id="14"]) .tn-prod-season-header__title {
                         padding-left:0px;
                         color:#f15a38;
