@@ -398,8 +398,15 @@
                     display: none;
                 }
                 
+                .tn-performance-list-item__details {
+                    text-transform: none;
+                }
+                
                 .tn-performance-list-item__datetime {
                     font-size: 70%;
+                }
+                .tn-performance-list-item {
+                    border:none;
                 }
 
                 .tn-additional-items__section.tn-additional-items__section--view-cart {
@@ -4367,6 +4374,7 @@
                             text-align: left;
                             caption-side: bottom;
                             }
+                            
                             th {
                             text-align: inherit;
                             text-align: -webkit-match-parent;
@@ -8253,6 +8261,12 @@
                             .container-sm {
                                 max-width: 960px;
                             }
+                            .padd-left-desk {
+                                padding-left: 68px;
+                            }
+                            .spaced-row-section .row {
+                                margin-bottom: 40px !important;
+                            }
                             .col-lg {
                                 -ms-flex-preferred-size: 0;
                                 flex-basis: 0;
@@ -8343,7 +8357,8 @@
                             .col-lg-7 {
                                 -webkit-box-flex: 0;
                                 -ms-flex: 0 0 58.33333333%;
-                                flex: 0 0 58.33333333%;
+                                /*flex: 0 0 58.33333333%;*/
+                                flex: 1;
                                 max-width: 58.33333333%;
                             }
                             .col-lg-8 {
@@ -10547,6 +10562,11 @@
                     @media (min-width: 768px) {
                         .tn-prod-list-item__perf-anchor {
                             padding: 5px 10px 5px 10px;
+                        }
+                            
+                        .tn-performance-list-item {
+                            padding-left: 0;padding-right:0;
+                        }
                         }
                         
                     }
