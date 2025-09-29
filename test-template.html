@@ -498,9 +498,6 @@
                     transition: 0.5s;
                     text-transform: lowercase;
                 }
-                #tnc-cancel a {
-                    font-family: CMPSharpSansDisp !important;
-                }
                 
                 #tnc-cancel:hover {
                     color: #fff;
@@ -4204,6 +4201,15 @@
                     
                     .tn-cart-totals__line-item, .tn-cart-totals__line-item--primary, .tn-cart-totals__currency-symbol {
                         color: white;
+                    }
+
+                    #tnc-cancel {
+                        padding: 2rem 3rem;
+                        font-family: inherit;
+                    }
+                        
+                    #tnc-cancel a {
+                        font-weight: 800;
                     }
                 
                 `
@@ -11084,6 +11090,10 @@
                         font-size: 14px;
                         line-height: 19px;
                         color: #636466;
+                    }
+                        
+                    #tnc-cancel a {
+                        font-family: CMPSharpSansDisp !important;
                     }
                 `
                 head.appendChild(style);
