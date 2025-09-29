@@ -485,27 +485,59 @@
                     width: auto !important;
                     left: unset !important;
                 }
+    
+                #tnc-cancel {
+                    color: #fff !important;
+                    background-color: #636466;
+                    border-color: #636466;
+                    font-size: 16px;
+                    line-height: 21px;
+                    padding: 12px 35px;
+                    font-weight: 500;
+                    -webkit-transition: 0.5s;
+                    transition: 0.5s;
+                    text-transform: lowercase;
+                }
+                #tnc-cancel a {
+                    font-family: CMPSharpSansDisp !important;
+                }
                 
-                            #tnc-cancel {
-                                color: #fff !important;
-                                background-color: #636466;
-                                border-color: #636466;
-                                font-size: 16px;
-                                line-height: 21px;
-                                padding: 12px 35px;
-                                font-weight: 500;
-                                -webkit-transition: 0.5s;
-                                transition: 0.5s;
-                                text-transform: lowercase;
-                            }
-                            #tnc-cancel a {
-                                font-family: CMPSharpSansDisp !important;
-                            }
-                            
-                            #tnc-cancel:hover {
-                                color: #fff;
-                                opacity: 60%;
-                            }
+                #tnc-cancel:hover {
+                    color: #fff;
+                    opacity: 60%;
+                }
+
+                #tnc-survey-builder #tnc-submit,
+                #tnc-survey-builder #tnc-cancel {
+                    text-transform: none;
+                }
+
+                .surveySectionId-3 .form-group[data-control-group-for="13|I acknowledge that I have carefully read and understand the terms of the Agreement."],
+                .surveySectionId-4 .form-group[data-control-group-for="15|I acknowledge that I have carefully read and understand the terms of the Agreement."] {
+                    display: flex;
+                }
+
+                .surveySectionId-3 .form-group[data-control-group-for="13|I acknowledge that I have carefully read and understand the terms of the Agreement."] input,
+                .surveySectionId-4 .form-group[data-control-group-for="15|I acknowledge that I have carefully read and understand the terms of the Agreement."] input {
+                    order: -1;
+                    margin: 10px;
+                    height: fit-content;
+                }
+
+                .surveySectionId-3 .form-group[data-control-group-for="13|I acknowledge that I have carefully read and understand the terms of the Agreement."] label,
+                .surveySectionId-4 .form-group[data-control-group-for="15|I acknowledge that I have carefully read and understand the terms of the Agreement."] label {
+                    display: none;
+                }
+                
+                @media (min-width: 576px) {
+                    .tn-custom .col-xs-12 h2 {
+                        -webkit-box-flex: 0;
+                        -ms-flex: 0 0 60%;
+                        flex: 0 0 60%;
+                        max-width: 60%;
+                    }
+                }
+
 
                 
         </style>
@@ -2052,25 +2084,27 @@
                         box-shadow: 0 0 0 .2rem rgba(38, 95, 147, .5)
                     }
 
-                    .btn-secondary {
+                    .btn-secondary, #tnc-cancel {
                         color: #fff;
                         background-color: #858796;
                         border-color: #858796
                     }
 
-                    .btn-secondary:hover {
+                    .btn-secondary:hover, #tnc-cancel:hover {
                         color: #fff;
                         background-color: #717384;
                         border-color: #6b6d7d
                     }
 
                     .btn-secondary.focus,
-                    .btn-secondary:focus {
+                    .btn-secondary:focus,
+                    #tnc-cancel.focus, #tnc-cancel:focus {
                         box-shadow: 0 0 0 .2rem rgba(151, 153, 166, .5)
                     }
 
                     .btn-secondary.disabled,
-                    .btn-secondary:disabled {
+                    .btn-secondary:disabled,
+                    #tnc-cancel.disabled, #tnc-cancel.disabled {
                         color: #fff;
                         background-color: #858796;
                         border-color: #858796
@@ -5208,8 +5242,7 @@
                             }
                             .tn-utility-nav-inline-promo-code-form__input.form-control.input-sm {
                                 width: 150px;
-                                line-height: 1.55;
-                                height: 100%;
+                                height:47px;
                                 margin-top: -1px;
                             }
                             .tn-utility-nav-account-login-link__user-icon {
