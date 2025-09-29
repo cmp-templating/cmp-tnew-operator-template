@@ -481,6 +481,14 @@
                     order:-1;
                     
                 }
+                #tnc-cancel {
+                    text-transform: lowercase;
+                    
+                }
+                .additional-info {
+                    width: auto;
+                    left: unset;
+                }
                 
         </style>
 
@@ -2028,23 +2036,14 @@
 
                     .btn-secondary {
                         color: #fff;
-                        background-color: #636466;
-                        border-color: #636466;
-                        font-size: 16px;
-                        line-height: 21px;
-                        padding: 12px 35px;
-                        font-weight: 500;
-                        -webkit-transition: 0.5s;
-                        transition: 0.5s;
-                        text-transform: lowercase;
-                    }
-                    .btn-secondary a {
-                        font-family: CMPSharpSansDisp !important;
+                        background-color: #858796;
+                        border-color: #858796
                     }
 
                     .btn-secondary:hover {
                         color: #fff;
-                        opacity: 60%;
+                        background-color: #717384;
+                        border-color: #6b6d7d
                     }
 
                     .btn-secondary.focus,
@@ -5264,7 +5263,30 @@
                             -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
                             box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
                             }
+
+
                             .btn-secondary {
+                                color: #fff;
+                                background-color: #636466;
+                                border-color: #636466;
+                                font-size: 16px;
+                                line-height: 21px;
+                                padding: 12px 35px;
+                                font-weight: 500;
+                                -webkit-transition: 0.5s;
+                                transition: 0.5s;
+                                text-transform: lowercase;
+                            }
+                            .btn-secondary a {
+                                font-family: CMPSharpSansDisp !important;
+                            }
+
+                            .btn-secondary:hover {
+                                color: #fff;
+                                opacity: 60%;
+                            }
+
+                            /*.btn-secondary {
                             color: #fff;
                             background-color: #6c757d;
                             border-color: #6c757d;
@@ -5273,7 +5295,7 @@
                             color: #fff;
                             background-color: #5a6268;
                             border-color: #545b62;
-                            }
+                            }*/
                             .btn-secondary.focus,
                             .btn-secondary:focus {
                             color: #fff;
@@ -11011,7 +11033,7 @@
                         font-size: 14px;
                         line-height: 19px;
                         color: #636466;
-                        width: 100%;
+                        width: inherit;
                     }
                 `
                 head.appendChild(style);
