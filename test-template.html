@@ -122,7 +122,8 @@
 
                 .tn-events-calendar__event .tn-product-type-name,
                 .tn-event-detail__performance-details-container .tn-product-type-name,
-                .tn-performance-list-item__details .tn-product-type-name {
+                .tn-performance-list-item__details .tn-product-type-name,
+                .tn-cart-item-summary__property--name .tn-product-type-name {
                     display: none;
                 }
 
@@ -396,8 +397,15 @@
                     display: none;
                 }
 
-                #tn-add-to-cart-button {
+                #tn-add-to-cart-button,
+                #tn-add-donation-button,
+                #tn-payment-submit-button,
+                #tn-payment-apply-gift-certificate-button-submit {
                     float: right;
+                }
+
+                .tn-payment-submit-component__contents {
+                    color: black;
                 }
 
                 /*TNEW Add-ons Shared*/
@@ -416,6 +424,7 @@
                 }
                 .tn-performance-list-item {
                     border:none;
+                    gap:15px;
                 }
 
                 .tn-additional-items__section.tn-additional-items__section--view-cart {
@@ -443,6 +452,34 @@
                 }
                 .tn-cart-buttons__item-container:last-child {
                     order: -1;
+                }
+                .tn-cart-item-detail__list-item.tn-cart-item-detail__list-item--seat-location {
+                    display: none;
+                }
+                
+                .tn-order-address-information-component .row > div {
+                    flex-grow: 1;
+                }
+
+                /* TNEW Edu Ext */
+                .tn-custom .component-actions.col-xs-12.col-sm-6 {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                
+                .tn-custom .form-container {
+                padding-left: 15px;
+                padding-right: 15px;
+                }
+                .tn-custom .form-container .col-xs-12 {
+                padding-left: 0;
+                padding-right: 0;
+                margin: 0;
+                }
+
+                .component-actions.col-xs-12.col-sm-6 .tn-btn-wrapper:has(#tnc-cancel) {
+                    order:-1;
+                    
                 }
                 
         </style>
@@ -1952,13 +1989,17 @@
                         pointer-events: none
                     }
 
-                    .btn-primary, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default {
+                    .btn-primary, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default,
+                    #tn-add-donation-button,
+                    #tn-payment-submit-button {
                         color: #fff;
                         background-color: #004380;
                         border-color: #004380
                     }
 
-                    .btn-primary:hover, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:hover {
+                    .btn-primary:hover, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:hover,
+                    #tn-add-donation-button:hover,
+                    #tn-payment-submit-button:hover {
                         color: #fff;
                         background: #27dd23;
                         border-color: #27dd23;
@@ -1987,14 +2028,23 @@
 
                     .btn-secondary {
                         color: #fff;
-                        background-color: #858796;
-                        border-color: #858796
+                        background-color: #636466;
+                        border-color: #636466;
+                        font-size: 16px;
+                        line-height: 21px;
+                        padding: 12px 35px;
+                        font-weight: 500;
+                        -webkit-transition: 0.5s;
+                        transition: 0.5s;
+                        text-transform: lowercase;
+                    }
+                    .btn-secondary a {
+                        font-family: CMPSharpSansDisp !important;
                     }
 
                     .btn-secondary:hover {
                         color: #fff;
-                        background-color: #717384;
-                        border-color: #6b6d7d
+                        opacity: 60%;
                     }
 
                     .btn-secondary.focus,
@@ -3820,18 +3870,18 @@
                     padding-left: .75rem;
                     }
                     @media (min-width: 768px) {
-                    .col-md-3 {
-                        flex: 0 0 25%;
-                        max-width: 25%;
-                    }
-                    .col-md-6 {
-                        flex: 0 0 50%;
-                        max-width: 50%;
-                    }
-                    .col-md-12 {
-                        flex: 0 0 100%;
-                        max-width: 100%;
-                    }
+                        .col-md-3 {
+                            flex: 0 0 25%;
+                            max-width: 25%;
+                        }
+                        .col-md-6 {
+                            flex: 0 0 50%;
+                            max-width: 50%;
+                        }
+                        .col-md-12 {
+                            flex: 0 0 100%;
+                            max-width: 600px;
+                        }
                     }
                     
                     .footer__social {
@@ -3855,12 +3905,23 @@
                 head.appendChild(style);
 
                 var css_mlab_tnew = `
+                    #colophon {
+                        margin-top: 50px;
+                    }
                     .nodisplay-mlab {
                         display: none;
                     }
                     .btn-primary {
                     border: none;
                     }
+
+                    .tn-utility-nav.tn-utility-nav--timer-active {
+                    width: 100%;
+                    }
+                    .tn-utility-nav-account-section__container {
+                    margin-right: 15px;
+                    }
+
                     .btn-primary.disabled, .btn-primary:disabled, .btn-primary.disabled.focus, .btn-primary.disabled:focus, .btn-primary.disabled:hover, .btn-primary[disabled].focus, .btn-primary[disabled]:focus, .btn-primary[disabled]:hover, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary:hover {
                         background: #000;
                     }
@@ -3903,8 +3964,6 @@
                     color: white;
                     }
                     .tn-utility-nav-cart-timer {
-                        margin-right: 10px;
-                        height: 100%;
                         text-align: center;
                         line-height: 20px;
                     }
@@ -4006,9 +4065,15 @@
                         order: 2;
                     }
                     @media (min-width: 768px) {
-                    .tn-prod-season-header__image-wrapper {
-                        width: inherit;
-                    }
+                        .tn-prod-season-header__image-wrapper {
+                            width: inherit;
+                        }
+
+                        .tn-utility-nav-cart-timer {
+                        
+                        margin-right: 10px;
+                        height: 100%;
+                        }
                     }
 
                     .tn-prod-season-header__description-container {
@@ -4549,7 +4614,7 @@
                             margin: 0;
                             border: 0;
                             }
-                            legend {
+                            /*legend {
                             display: block;
                             width: 100%;
                             max-width: 100%;
@@ -4559,7 +4624,7 @@
                             line-height: inherit;
                             color: inherit;
                             white-space: normal;
-                            }
+                            }*/
                             progress {
                             vertical-align: baseline;
                             }
@@ -5156,18 +5221,24 @@
                             fieldset:disabled a.btn {
                             pointer-events: none;
                             }
-                            .btn-primary, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default {
+                            .btn-primary, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default,
+                            #tn-add-donation-button,
+                            #tn-payment-submit-button {
                             color: #fff;
                             background-color: #007bff;
                             border-color: #007bff;
                             }
-                            .btn-primary:hover, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:hover {
+                            .btn-primary:hover, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:hover,
+                            #tn-add-donation-button:hover,
+                            #tn-payment-submit-button:hover {
                             color: #fff;
                             background-color: #0069d9;
                             border-color: #0062cc;
                             }
                             .btn-primary.focus,
-                            .btn-primary:focus, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:focus {
+                            .btn-primary:focus, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:focus,
+                            #tn-add-donation-button:focus,
+                            #tn-payment-submit-button:focus {
                             color: #fff;
                             background-color: #0069d9;
                             border-color: #0062cc;
@@ -10575,7 +10646,9 @@
                         position: absolute;
                         display: block;
                     }
-                    .btn-primary, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default {
+                    .btn-primary, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default,
+                    #tn-add-donation-button,
+                    #tn-payment-submit-button {
                         font-size: 16px !important;
                         letter-spacing: 0 !important;
                         line-height: 21px !important;
@@ -10592,14 +10665,18 @@
                         -webkit-transition: 0.5s !important;
                         transition: 0.5s !important;
                     }
-                    .btn-primary:hover, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:hover {
+                    .btn-primary:hover, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:hover,
+                    #tn-add-donation-button:hover,
+                    #tn-payment-submit-button:hover {
                         border-color: #1a78a8 !important;
                         color: #1a78a8 !important;
                         background: 0 0 !important;
                         -webkit-transition: 0.5s !important;
                         transition: 0.5s !important;
                     }
-                    .btn-primary:focus, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:focus {
+                    .btn-primary:focus, .tn-additional-items__section.tn-additional-items__section--view-cart .btn.btn-default:focus,
+                    #tn-add-donation-button:focus,
+                    #tn-payment-submit-button:focus {
                         outline: 0 !important;
                         -webkit-box-shadow: none !important;
                         box-shadow: none !important;
@@ -10934,7 +11011,7 @@
                         font-size: 14px;
                         line-height: 19px;
                         color: #636466;
-                        width: inherit;
+                        width: 100%;
                     }
                 `
                 head.appendChild(style);
