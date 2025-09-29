@@ -487,15 +487,6 @@
                 }
     
                 #tnc-cancel {
-                    color: #fff !important;
-                    background-color: #636466;
-                    border-color: #636466;
-                    font-size: 16px;
-                    line-height: 21px;
-                    padding: 12px 35px;
-                    font-weight: 500;
-                    -webkit-transition: 0.5s;
-                    transition: 0.5s;
                     text-transform: lowercase;
                 }
                 
@@ -3990,6 +3981,7 @@
                     }
                     .tn-utility-nav {
                     float: right;
+                    z-index:2; position: relative;
                     }
                     .tn-utility-nav .btn {
                     padding: .25rem .5rem;
@@ -4011,9 +4003,22 @@
                     background: black;
                     color: white;
                     }
+                    
+                    .tn-utility-nav-account-user-display__label {
+                    color: white;
+                    opacity: 80%;
+                    }
+
                     .tn-utility-nav-cart-timer {
                         text-align: center;
                         line-height: 20px;
+                        z-index:0;
+                    }
+                    .tn-utility-nav-cart-timer__icon {
+                        margin-top: 4px;
+                    }
+                    .modal {
+                    color: black;
                     }
 
 
@@ -4203,6 +4208,11 @@
                         color: white;
                     }
 
+                    .event-group {
+                        color: black;
+                        background: white;
+                    }
+
                     #tnc-cancel {
                         padding: 2rem 3rem;
                         font-family: inherit;
@@ -4210,6 +4220,14 @@
                         
                     #tnc-cancel a {
                         font-weight: 800;
+                    }
+                    #tnc-survey-builder .form-group a {
+                    color: white;
+                    }
+
+                    #cp-action-btns .component-actions {
+                        display: flex;
+                        justify-content: space-between;
                     }
                 
                 `
@@ -11092,6 +11110,19 @@
                         color: #636466;
                     }
                         
+
+                    
+                    #tnc-cancel {
+                        color: #fff !important;
+                        background-color: #636466;
+                        border-color: #636466;
+                        font-size: 16px;
+                        line-height: 21px;
+                        padding: 12px 35px;
+                        font-weight: 500;
+                        -webkit-transition: 0.5s;
+                        transition: 0.5s;
+                    }
                     #tnc-cancel a {
                         font-family: CMPSharpSansDisp !important;
                     }
