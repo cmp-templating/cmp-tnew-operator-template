@@ -481,14 +481,32 @@
                     order:-1;
                     
                 }
-                #tnc-cancel {
-                    text-transform: lowercase;
-                    
-                }
                 .additional-info {
                     width: auto;
                     left: unset;
                 }
+                
+                            #tnc-cancel {
+                                color: #fff;
+                                background-color: #636466;
+                                border-color: #636466;
+                                font-size: 16px;
+                                line-height: 21px;
+                                padding: 12px 35px;
+                                font-weight: 500;
+                                -webkit-transition: 0.5s;
+                                transition: 0.5s;
+                                text-transform: lowercase;
+                            }
+                            #tnc-cancel a {
+                                font-family: CMPSharpSansDisp !important;
+                            }
+                            
+                            #tnc-cancel:hover {
+                                color: #fff;
+                                opacity: 60%;
+                            }
+
                 
         </style>
 
@@ -11033,7 +11051,6 @@
                         font-size: 14px;
                         line-height: 19px;
                         color: #636466;
-                        width: inherit;
                     }
                 `
                 head.appendChild(style);
