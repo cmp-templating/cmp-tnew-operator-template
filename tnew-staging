@@ -1,0 +1,1258 @@
+<!DOCTYPE html>
+
+<html lang="en-US" class="fontawesome-i2svg-active fontawesome-i2svg-complete">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta name="robots" content="noindex">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel='stylesheet' id='fontawesome-css-css' href='https://use.fontawesome.com/releases/v5.13.0/css/all.css?ver=5.0.8' type='text/css' media='all' />
+        
+        <!-- needed for proper mobile menu --> <link rel='stylesheet' id='sbi_styles-css'
+            href='https://museumlab.org/wp-content/plugins/instagram-feed/css/sbi-styles.min.css?ver=6.9.1' type='text/css'
+            media='all' />
+            <link rel='stylesheet' id='wp-block-library-css'
+            href='https://museumlab.org/wp-includes/css/dist/block-library/style.min.css?ver=6.8.1' type='text/css'
+            media='all' />
+
+        
+        <link rel="dns-prefetch" href="https://kit.fontawesome.com/">
+        <link rel="stylesheet" id="childrens-museum-style-css" href="https://pittsburghkids.org/wp-content/themes/childrens-museum/style.css?ver=1.0.0" type="text/css" media="all">
+        <link rel="stylesheet" id="megamenu-css" href="https://pittsburghkids.org/wp-content/uploads/maxmegamenu/style.css?ver=2324fc" type="text/css" media="all">
+        <script type="javascript" src="https://pittsburghkids.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        <script type="javascript" src="https://pittsburghkids.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+        <!--<script src="https://acsbapp.com/apps/app/dist/js/app.js" async=""></script>-->
+
+
+        <!-- CMP Favicons -->
+        <link id="favicon-32" rel="icon" href="https://pittsburghkids.org/wp-content/smush-webp/2021/05/cropped-hi-pink-for-favicon-1-32x32.png.webp" sizes="32x32">
+        <link id="favicon-192" rel="icon" href="https://pittsburghkids.org/wp-content/smush-webp/2021/05/cropped-hi-pink-for-favicon-1-192x192.png.webp" sizes="192x192">
+        <link id="favicon-apple" rel="apple-touch-icon" href="https://pittsburghkids.org/wp-content/smush-webp/2021/05/cropped-hi-pink-for-favicon-1-180x180.png.webp">
+        <meta id="favicon-msapp" name="msapplication-TileImage" content="https://pittsburghkids.org/wp-content/uploads/2021/05/cropped-hi-pink-for-favicon-1-270x270.png">
+        
+
+        
+
+<!--<style id="wp-custom-css">#popmake-3198 .popmake-content{
+        text-align:center;
+    }
+
+    .full-width-img {
+    width: 100%;
+    height: auto;
+    }
+
+
+    #popmake-3198 h2{
+        text-transform:none;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 130%;
+        margin-bottom: 20px;
+    }
+
+    #popmake-3198 a{
+        margin-bottom:0px;
+        margin-top:20px;
+        color:#fff;
+    }
+
+    #popmake-3198 a:hover{
+        color:#1a78a8;
+    }
+
+    #popmake-3198 img{
+        margin-top:0px;
+        margin-bottom:20px;
+    }
+
+    #popmake-3198 .pum-close.popmake-close{
+        padding: 0px 13px !important;
+    }
+
+    #mega-menu-item-2987 {
+        background: #1a78a8 !important;
+        padding: 0px 0px 7px 0px !important;
+    border: solid !important;
+        border-width: 2px !important;
+        border-color: #1a78a8 !important;
+    }
+
+    #mega-menu-item-2987:hover {
+        background: #fff !important;
+        border: solid !important;
+        border-width: 2px !important;
+        border-color: #1a78a8 !important;
+    padding: 0px 0px 7px 0px !important;
+    }
+
+
+    @media (max-width:767px){
+        #popmake-3198 h2{
+            font-size: 28px;
+        }
+    }
+    #orange-box {
+        background-color: #F15A38;
+        padding: 20px;
+        color: #fff;
+    }
+
+    #pink-box {
+        background-color: #F067A6;
+        padding: 20px; 
+        color: #fff;
+    }
+
+    #blue-box {
+        background-color: #44ADE2;
+        padding: 20px; 
+        color: #fff;
+    }</style>-->
+
+    </head>
+
+    <body class="wp-singular home page-template-default page wp-custom-logo">
+        <div id="page" class="site site-wrapper">
+            <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+            <!-- Header start here -->
+            <header id="masthead" class="site-header header">
+            </header>
+
+            <div id="content" class="site-content">
+                <div class="container"> <!--TNEW content here--> </div>
+            </div><!-- #content -->
+
+            <footer id="colophon" class="site-footer footer">
+            </footer>
+        </div>
+
+        <!--accessibi code-->
+        <!--<script>
+            (function() {
+                var s = document.createElement('script');
+                var h = document.querySelector('head') || document.body;
+                s.src = 'https://acsbapp.com/apps/app/dist/js/app.js';
+                s.async = true;
+                s.onload = function() {
+                    acsbJS.init({
+                        statementLink: '',
+                        footerHtml: '',
+                        hideMobile: false,
+                        hideTrigger: false,
+                        disableBgProcess: false,
+                        language: 'en',
+                        position: 'right',
+                        leadColor: '#146FF8',
+                        triggerColor: '#146FF8',
+                        triggerRadius: '50%',
+                        triggerPositionX: 'right',
+                        triggerPositionY: 'bottom',
+                        triggerIcon: 'people',
+                        triggerSize: 'bottom',
+                        triggerOffsetX: 20,
+                        triggerOffsetY: 20,
+                        mobile: {
+                            triggerSize: 'small',
+                            triggerPositionX: 'right',
+                            triggerPositionY: 'bottom',
+                            triggerOffsetX: 20,
+                            triggerOffsetY: 20,
+                            triggerRadius: '20'
+                        }
+                    });
+                };
+                h.appendChild(s);
+            })();
+        </script>-->
+        
+        <!--TNEW site template operator-->
+        <script>
+            function importCssFile(url) {
+            const linkElement = document.createElement('link');
+            linkElement.rel = 'stylesheet';
+            linkElement.href = url;
+            document.head.appendChild(linkElement);
+            }
+
+            // FORWARD TO CORRECT KEYWORDS
+            const siteFlag = new URLSearchParams(document.location.search).get("site");
+            const kidSearchFlag = new URLSearchParams(document.location.search).get("kid");
+            const keywordSearchFlag = new URLSearchParams(document.location.search).get("k");
+
+            const urlString = document.location.href;
+            const url = new URL(urlString);
+            url.search = "";
+            const cleanUrl = url.toString();
+
+            if ((cleanUrl == "https://secure.pittsburghkids.org/" || (cleanUrl == "https://secure.pittsburghkids.org/events")) && !kidSearchFlag && !keywordSearchFlag) {
+                if (siteFlag=="mlab" || document.cookie.indexOf('site_theme=mlab') != -1) { // if mlab site
+                    window.location.replace("https://secure.pittsburghkids.org/?site=mlab&kid=32,38");
+                }
+                else {
+                    window.location.replace("https://secure.pittsburghkids.org/?site=cmp&kid=5,29,30");
+                }
+            }
+
+
+
+            function addStyle(styleString) {
+                const style = document.createElement('style');
+                style.textContent = styleString;
+                document.head.append(style);
+            }
+
+            
+            function getFirstClassEl(className) {
+                classEl = document.getElementsByClassName(className);
+                if (classEl.length > 0) {
+                    return classEl[0];
+                }
+                return;
+            }
+
+            function addPToEnd(elem, text) {
+                elem.appendChild(document.createElement("p"))
+                .appendChild(document.createTextNode(text));
+            }
+
+
+            if (document.getElementsByClassName("tn-additional-items-page").length > 0) {
+                let allAddOnsHTML = document.getElementsByClassName("tn-prod-list-item__perf-list-item");
+                let allAddOnsArr = Array.prototype.slice.call( allAddOnsHTML );
+
+
+                function connectURLToAddOn(el) {
+                    let modalButtonWithIDsList = el.getElementsByClassName("tn-btn-modal-ticket-selector");
+                    if (modalButtonWithIDsList.length > 0) {
+                        let modalButtonWithIDs = modalButtonWithIDsList[0];
+                        let prodSeasonID = modalButtonWithIDs.getAttribute("data-tn-production-season-id");
+                        let performanceID = modalButtonWithIDs.getAttribute("data-tn-performance-id");
+
+                        if (!!prodSeasonID && !!performanceID) {
+                            let perfURL = "https://secure.pittsburghkids.org/" + prodSeasonID + "/" + performanceID;
+                            let perfTitleList = el.getElementsByClassName("tn-performance-title");
+                            if (perfTitleList.length > 0) {
+                                let perfTitleSpan = perfTitleList[0];
+                                let perfTitleLink = document.createElement("a");
+                                perfTitleLink.innerText = perfTitleSpan.innerText;
+                                perfTitleLink.href = perfURL;
+                                perfTitleLink.target="_blank";
+                                perfTitleLink.rel="noopener noreferrer";
+                                perfTitleSpan.innerHTML = ""; perfTitleSpan.append(perfTitleLink);
+                            }
+                        }
+                    }
+                }
+                allAddOnsArr.map(el => connectURLToAddOn(el)); 
+
+                function productTypefromHTMLEl(el) {
+                    let prodTypeList = el.getElementsByClassName("tn-product-type-name");
+                    if (prodTypeList.length > 0) {
+                        return prodTypeList[0].innerText;
+                        }
+                    }
+
+                let overarchingDiv = document.getElementById("tn-heading-production-seasons-list"); //add logic for when null
+                overarchingDiv.innerHTML = "";
+
+                function createNewHeaderAndList(prodType, headerName) {
+                    let prodOfTypeArr = allAddOnsArr.filter(el => productTypefromHTMLEl(el) == prodType);
+                    if (prodOfTypeArr.length > 0) {
+
+                        let prodDiv = document.createElement("div");
+                        prodDiv.classList.add("row", "my-3");
+
+                        let prodHeader = document.createElement("h2");
+                        prodHeader.innerHTML = headerName;
+                        prodHeader.classList.add("col-lg-4", "col-md-12");
+
+                        let prodList = document.createElement("ul");
+                        prodList.classList.add("list-unstyled", "col-lg-7", "col-md-12");
+
+                        prodOfTypeArr.map(el => prodList.append(el));
+
+                        prodDiv.append(prodHeader);prodDiv.append(prodList);
+                        overarchingDiv.append(prodDiv);
+                    }
+                }
+
+                let originalProdSeasonList = document.getElementsByClassName("list-unstyled");
+                if (originalProdSeasonList.length > 0) {
+                        originalProdSeasonList[0].innerHTML="";
+                    }
+
+                createNewHeaderAndList("Camp", "other camp dates");
+                createNewHeaderAndList("Lunch", "lunch options");
+                createNewHeaderAndList("Workshop", "workshops");
+                createNewHeaderAndList("Unticketed Event", "events included with admission");
+                createNewHeaderAndList("Admission Dailies", "drop-ins");
+                createNewHeaderAndList("Ticketed Event", "upcoming event tickets");
+            }
+
+
+            if (document.getElementsByClassName("tn-event-detail").length > 0) {
+                const eventProductType = document.getElementsByClassName("tn-event-detail")[0].getAttribute("data-tn-product-type-id");
+                if (eventProductType=="13" || eventProductType=="14") { /* drop-ins and unticketed events */
+                    let eventPerformanceName = document.getElementsByClassName("tn-event-detail__title")[0];
+                    let eventProductionSeasonName = document.getElementsByClassName("tn-prod-season-header__title")[0];
+                    eventProductionSeasonName.textContent = eventPerformanceName.textContent;
+                    eventPerformanceName.style.display = "none";
+                    
+                    let ticketingSection = document.getElementById("tn-events-detail-best-available-form");
+                    if (!!ticketingSection) {
+                        ticketingSection.style.display = "none";
+                    }
+
+                    let metaDescription = document.querySelector("meta[name='description']").getAttribute("content"); /*using for time*/
+                    if (metaDescription != null) {
+                        let eventDateTime = document.getElementsByClassName("tn-event-detail__display-time")[0];
+                        eventDateTime.textContent += " @ " + metaDescription;
+                    }
+
+                    if (document.getElementsByClassName("tn-prod-season-header__title-and-image-container").length > 0) {
+                        let productionSeasonHeader = getFirstClassEl("tn-prod-season-header__title-and-image-container");
+                        let eventDateTime = getFirstClassEl("tn-event-detail__display-time");
+                        addPToEnd(productionSeasonHeader, eventDateTime.textContent);
+                    }
+
+                    let eventDetailMain = document.querySelector('main');
+                    let backToCalDiv = document.createElement('div');
+                        backToCalDiv.style.paddingTop = "20px";
+                    let backToCalInner = document.createElement('a');
+                        backToCalInner.href = "https://secure.pittsburghkids.org";
+                        backToCalInner.innerHTML = "« all events";
+                    backToCalDiv.append(backToCalInner);
+                    eventDetailMain.prepend(backToCalDiv);
+                    
+                    
+                    let admissionsURL = "https://secure.pittsburghkids.org/?kid=5";
+                    const eventTitleDate = document.getElementById("tn-page-heading").innerText;
+                    const eventDate = new Date(Date.parse(eventTitleDate.split(" ").slice(-5)));
+                    if (!isNaN(eventDate.getTime())) {
+                        const eventYear = eventDate.getFullYear();
+                        const eventMonth = eventDate.getMonth()+1;
+                        const eventDay = eventDate.getDate();
+                        const dateString = eventYear + "-" + eventMonth + "-" + eventDay;
+                        admissionsURL = "https://secure.pittsburghkids.org/?kid=5&span=day&startDate=" + dateString;
+                    }
+
+                    let eventDescriptionDiv = getFirstClassEl("tn-event-detail__main-container");
+                    let admissionsBackLink = document.createElement('a');
+                    admissionsBackLink.href = admissionsURL;
+                    admissionsBackLink.innerHTML = "Included with Museum admission.";
+                    eventDescriptionDiv.append(admissionsBackLink);
+
+
+
+                    addStyle( `
+                        .tn-prod-season-header__image-wrapper {
+                            order: 3;
+                            text-align: center;
+                        }
+                        .tn-prod-season-header__title-and-image-container {
+                            display: flex;
+                            flex-wrap: wrap;
+                            flex-basis: 100%;
+                        }
+                        .tn-prod-season-header__title-and-image-container > * {
+                            width: 100%;
+                            padding: 0px 20px;
+                        }
+                        .tn-event-detail__additional-events-container, .tn-event-detail__display-time {
+                            display: none;
+                        }
+                        .tn-events-detail-page {
+                            max-width: 1000px;
+                            margin: 0 auto;
+                        }
+                        
+                        .tn-prod-season-header__title {
+                            padding: 20px 0px;
+                        }
+
+                        .tn-prod-season-header__title-and-image-container > * {
+                            padding: 0;
+                        }
+
+                        .tn-prod-season-header__image-wrapper {
+                            display: block;
+                        }
+
+                        .tn-prod-season-header {
+                            border-bottom: none;
+                        }
+
+                    `);
+
+                    
+
+                }
+            }
+            
+
+            /* const keywordID = new URLSearchParams(document.location.search).get("kid");
+            if (keywordID=="31") {  40-Person Spot Field Trip
+                addStyle( `
+                .events-calendar {
+                    display: none;
+                }
+                .field-trip-info-40 {
+                    display: inherit;
+                }
+                `);
+            } */
+
+
+            
+            if (siteFlag=="cmp") {
+                document.cookie = "site_theme=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;";
+
+            }
+
+
+            if (siteFlag=="mlab" || document.cookie.indexOf('site_theme=mlab') != -1) { /* MLab Template */
+                
+                
+                function setMLabCookie() {
+                    document.cookie = "site_theme=mlab; path=/;";
+                }
+
+                setMLabCookie();
+
+
+                var favicon_32 = document.getElementById("favicon-32"),
+                    favicon_192 = document.getElementById("favicon-192"),
+                    favicon_apple = document.getElementById("favicon-apple"),
+                    favicon_msapp = document.getElementById("favicon-msapp");
+                
+                favicon_32.setAttribute("href", "https://museumlab.org/wp-content/themes/museumlab/images/favicon.png");
+                favicon_192.setAttribute("href", "https://museumlab.org/wp-content/themes/museumlab/images/favicon.png");
+                favicon_apple.setAttribute("href", "https://museumlab.org/wp-content/themes/museumlab/images/favicon.png");
+                favicon_msapp.setAttribute("content", "https://museumlab.org/wp-content/themes/museumlab/images/favicon.png");
+
+               
+                document.getElementById("masthead").innerHTML = `
+                    <div class="mlab-container">
+                        <nav class="mlab-navbar " id="site-navigation">
+                            <div class="header__logo">
+                                <span class="site-logo site-logo--header">
+                                    <a href="https://museumlab.org" class="mlab-navbar-brand ">
+                                    <img src="https://museumlab.org/wp-content/themes/museumlab/images/logo.png" class="mlab-navbar__logo"
+                                        alt="Museum Lab" width="250" height="83" loading="lazy">
+                                    </a>
+                                </span>
+                            </div>
+
+                            <div class="header__menu ">
+                                <div class="d-flex">
+                                    <a href="https://shop.pittsburghkids.org/e-commerce/" target="_blank" class="btn get-tickets" style="display:none !important;">get
+                                    tickets</a>
+                                    <input type="checkbox" id="openmenu" class="hamburger-checkbox">
+                                    <div class="hamburger-icon">
+                                        <label for="openmenu" class="hamburger-label" id="hamburger-label">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div> <!-- container -->
+
+                    <div id="menu-pane" class="menu-pane">
+                        <ul id="menu-main-nav" class="mlab-navbar-nav">
+                            <li id="menu-item-3743"
+                            class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-3743">
+                                <a>visit</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4336"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-page-parent menu-item-4336">
+                                    <a href="https://museumlab.org/visit/">plan your visit</a></li>
+                                    <li id="menu-item-700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-700"><a
+                                        href="https://museumlab.org/visit/tickets-directions-parking/">directions + parking</a></li>
+                                    <li id="menu-item-3749"
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-3701 current_page_item menu-item-3749">
+                                    <a href="https://museumlab.org/visit/mlabpass/" aria-current="page">mlabPASS</a></li>
+                                    <li id="menu-item-1521" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1521"><a
+                                        href="https://museumlab.org/visit/accessibility/">accessibility</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-3744"
+                            class="unclickable menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3744">
+                                <a>explore</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-623" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-623"><a
+                                        href="https://museumlab.org/explore/photos-videos/">see museumlab</a></li>
+                                    <li id="menu-item-3834" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3834"><a
+                                        target="_blank" href="https://pittsburghkids.org/exhibit/tough-art-2024/">tough art</a></li>
+                                    <li id="menu-item-626" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-626"><a
+                                        href="https://museumlab.org/explore/gymlacium/">gymlacium</a></li>
+                                    <li id="menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-624"><a
+                                        href="https://museumlab.org/explore/art-at-museumlab/">artwork</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-3745"
+                            class="unclickable menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3745">
+                                <a>learn</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-4050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4050"><a
+                                        href="https://museumlab.org/summer-camps/">summer camps</a></li>
+                                    <li id="menu-item-698" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-698"><a
+                                        href="https://museumlab.org/learn/schools-educators/">schools &#038; educators</a></li>
+                                    <li id="menu-item-3889" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3889"><a
+                                        href="https://museumlab.org/metals/">metalworking</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-3426" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3426"><a
+                                href="https://museumlab.org/events">calendar</a></li>
+                            <li id="menu-item-3746"
+                            class="unclickable menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3746">
+                                <a>party</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-705"><a
+                                        href="https://museumlab.org/party/weddings/">weddings</a></li>
+                                    <li id="menu-item-3043" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3043"><a
+                                        href="https://museumlab.org/party/event-rentals/">event rentals</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                `;
+                document.getElementById("colophon").innerHTML = `
+                    <div class="mlab-container">
+                        <div class="footer__top">
+                            <img src="https://museumlab.org/wp-content/themes/museumlab/images/logo.png" class="mlab-navbar__logo"
+                            alt="Museum Lab" width="182" height="39" loading="lazy">
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-6  mb-5 mb-md-0">
+                                <ul id="menu-footer-nav" class="mlab-navbar-nav footer-nav">
+                                    <li id="menu-item-454" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-454"><a
+                                        href="https://museumlab.org/about/">about</a></li>
+                                    <li id="menu-item-1221" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1221"><a
+                                        href="https://museumlab.org/wp-content/uploads/2025/07/MLabJuly2025.pdf">museum map</a></li>
+                                    <li id="menu-item-3732" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3732"><a
+                                        href="https://pittsburghkids.org/support/">support</a></li>
+                                    <li id="menu-item-1742" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1742"><a
+                                        href="https://museumlab.org/visit/covid-safety/">health &#038; safety</a></li>
+                                    <li id="menu-item-452" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-452"><a
+                                        href="https://museumlab.org/join-the-team/">join the team</a></li>
+                                    <li id="menu-item-453" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-453"><a
+                                        href="https://museumlab.org/contact/">contact</a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 mb-2 mb-md-0 ">
+                                <p>6 allegheny sq. east<br />
+                                    pittsburgh, pa 15212</p>
+                                <p>412-322-5058<br />
+                                    hi@pittsburghkids.org</p>
+
+                                <ul class="footer__social col-md-3 d-flex">
+                                    <li><a href="http://www.facebook.com/museumlabpgh"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/museumlabpgh"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="http://www.instagram.com/museumlabpgh"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="http://www.youtube.com/user/pghkids"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-3 footer__logo mb-2 mb-md-0 ">
+                                <p>open sat + sun<br />
+                                    <span data-contrast="none">10:30 am – 4:15 pm</span><br />
+                                    <span data-contrast="none">timed admissions only</span><span
+                                    data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335557856&quot;:16777215,&quot;335559738&quot;:0,&quot;335559739&quot;:0,&quot;335559740&quot;:240}">
+                                    </span>
+                                </p>
+                                <p>&nbsp;</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+
+                            <div class="col-md-12 footer__logos">
+                                <a class="button" href="https://pittsburghkids.org/" target="_blank">
+                                    <img src="https://museumlab.org/wp-content/uploads/2023/01/children-museum-logo-with-border-room3-1.png"
+                                    alt="" loading="lazy" />
+                                </a>
+                                <a class="button" href="https://www.radworkshere.org/" target="_self">
+                                    <img src="https://museumlab.org/wp-content/uploads/2024/02/RAD_Primary_Logo_white_RGB.png" alt=""
+                                    loading="lazy" />
+                                </a>
+                                <a class="button" href="https://www.visitpa.com/" target="_self">
+                                    <img
+                                    src="https://museumlab.org/wp-content/uploads/2023/01/PA-Tourism_PursueYourHappiness_Logo_RegTM_White-070517-e1673459851209.png"
+                                    alt="" loading="lazy" />
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-6 footer__copyright mb-2 mb-md-0">
+                                <p>
+                                    &copy; 2025 Children's Museum of Pittsburgh. All rights reserved.
+                                    <a href="/privacy-policy" target="_blank">Privacy Policy</a>
+                                </p>
+                            </div>
+                            <!--<div class="col-md-6 footer__copyright text-center mb-2 mb-md-0 text-md-right">
+                                <p>
+                                    Another Creative Technology By <a href="https://creatotech.com/" target="_blank" style="margin-left: 10px;"><img src="https://creatotech.com/wp-content/uploads/2023/03/Creatotech-Color-White-02.png" width="120"  loading="lazy"></a>
+                                </p>
+                            </div>-->
+                        </div>
+                    </div>
+
+                    <div class='back-to-top'>
+                        <div class="back-to-top__inner">
+                            <i class="fas fa-arrow-up"></i>
+                        </div>
+                    </div>
+                `;
+            
+            /*document.addEventListener('click',function( _e ) {
+                if (!_e.target.classList.contains('linkto-cmp')) {
+                        setMLabCookie();
+
+                        var hrefEl = _e.target.closest("a");
+
+                        if(hrefEl)
+                            hrefEl.href = hrefEl.href + ( hrefEl.href.indexOf('?') != -1 ? '&site=mlab' : '?site=mlab' );
+                        return true;
+                    }                    
+                }, true);
+
+            document.addEventListener('submit',function( _e ) {
+                setMLabCookie();                    
+                return true;
+            },true);*/
+
+                var mlab_menu_openmenu = document.getElementById('openmenu');
+                var mlab_menu_menupane = document.getElementById('menu-pane');
+                var mlab_menu_body = document.body;
+                
+
+                mlab_menu_openmenu.addEventListener('click', function() {
+                    mlab_menu_menupane.classList.toggle("checked");
+                    mlab_menu_body.classList.toggle("menu-open");
+                }, true);
+                
+
+                let promocodeDiv = document.getElementById("tn-utility-nav-inline-promo-code-form-input");
+                    if (promocodeDiv != null) {
+                        document.getElementById("tn-utility-nav-inline-promo-code-form-input").placeholder = "promo code";
+                    }
+
+            importCssFile('https://pittsburghkids.org/wp-content/uploads/tnew/tnew_mlab_css.css');
+
+            }
+            else {  /* CMP template */
+
+                document.getElementById("masthead").innerHTML = `
+                <button class="menu-open-btn" onclick="openMenuBlock()">
+  <svg
+    class="svg-inline--fa fa-bars fa-w-14"
+    aria-hidden="true"
+    focusable="false"
+    data-prefix="fas"
+    data-icon="bars"
+    role="img"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 448 512"
+    data-fa-i2svg=""
+  >
+    <path
+      fill="currentColor"
+      d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+    ></path></svg
+  ><!-- <i class="fas fa-bars"></i> Font Awesome fontawesome.com -->
+</button>
+<div class="container">
+  <div class="row">
+    <!--Top Links -->
+    <div
+      class="col-lg-12 text-center text-lg-right align-self-center top-links p-0"
+    >
+      <nav id="top-navigation" class="top-navigation d-none-mob">
+        <div class="navbar-collapse" id="navbarSupportedContent">
+          <div class="menu-top-nav-container">
+            <ul id="menu-top-nav" class="menu">
+              <li
+                id="menu-item-98"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-98"
+              >
+                <a href="https://secure.pittsburghkids.org/?site=cmp">calendar</a>
+              </li>
+              <li
+                id="menu-item-99"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"
+              >
+                <a
+                  target="_blank"
+                  href="https://pittsburghkids.org/donate"
+                  rel="external noopener noreferrer"
+                  >donate</a
+                >
+              </li>
+              <li
+                id="menu-item-15509"
+                class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15509"
+              >
+                <a
+                  href="https://museumlab.org"
+                  data-wpel-link="external"
+                  target="_blank"
+                  rel="external noopener noreferrer"
+                  >MuseumLab</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- #top-navigation -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-3 text-lg-left site-branding p-0">
+      <!-- Header logo here -->
+      <h1>
+        <a
+          href="https://pittsburghkids.org/"
+          class="custom-logo-link"
+          rel="home"
+          aria-current="page"
+          data-wpel-link="internal"
+          ><img
+            width="1000"
+            height="544"
+            src="https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386.png.webp"
+            class="custom-logo"
+            alt="Children's Museum of Pittsburgh"
+            decoding="async"
+            fetchpriority="high"
+            srcset="
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386.png.webp         1000w,
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386-300x163.png.webp  300w,
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386-768x418.png.webp  768w,
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386-230x125.png.webp  230w,
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386-460x250.png.webp  460w,
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386-660x360.png.webp  660w,
+              https://pittsburghkids.org/wp-content/smush-webp/2021/01/cropped-CMP_RGB_Logo_Pink_TM-e1617767771386-110x60.png.webp   110w
+            "
+            sizes="(max-width: 1000px) 100vw, 1000px"
+        /></a>
+      </h1>
+    </div>
+
+    <div id="cmp-menu-block" class="col-lg-9 align-self-center menu-block p-0">
+      <div class="menu-block-bg">
+        <button class="menu-close" onclick="closeMenuBlock()">
+          <svg
+            class="svg-inline--fa fa-times fa-w-10"
+            aria-hidden="true"
+            focusable="false"
+            data-prefix="fal"
+            data-icon="times"
+            role="img"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 320 512"
+            data-fa-i2svg=""
+          >
+            <path
+              fill="currentColor"
+              d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"
+            ></path></svg
+          ><!-- <i class="fal fa-times"></i> Font Awesome fontawesome.com -->
+        </button>
+        <!-- <div class="mobile-search">
+                            <form role="search" method="get" class="search-form" action="https://pittsburghkids.org/">
+				<label>
+					<span class="screen-reader-text">Search for:</span>
+					<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+				</label>
+				<input type="submit" class="search-submit" value="Search" />
+			</form>                            <i class="fal fa-search"></i>
+                        </div> -->
+
+        <nav id="top-navigation" class="top-navigation mobile-top-nav">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+            <div class="menu-top-nav-container">
+              <ul id="menu-top-nav-1" class="menu">
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-98"
+                >
+                  <a href="/events/" data-wpel-link="internal">calendar</a>
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99"
+                >
+                  <a
+                    target="_blank"
+                    href="https://fundraise.givesmart.com/form/2flkZw?vid=16xii0"
+                    data-wpel-link="external"
+                    rel="external noopener noreferrer"
+                    >donate</a
+                  >
+                </li>
+                <li
+                  class="menu-item menu-item-type-custom menu-item-object-custom menu-item-15509"
+                >
+                  <a
+                    href="https://museumlab.org"
+                    data-wpel-link="external"
+                    target="_blank"
+                    rel="external noopener noreferrer"
+                    >MuseumLab</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <!--Top Search Bar -->
+            <div class="site-search align-self-center">
+              <!-- Header logo here -->
+              <div class="head-search-icon">
+                <svg
+                  class="svg-inline--fa fa-search fa-w-16"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="far"
+                  data-icon="search"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 512 512"
+                  data-fa-i2svg=""
+                >
+                  <path
+                    fill="currentColor"
+                    d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"
+                  ></path></svg
+                ><!-- <i class="far fa-search"></i> Font Awesome fontawesome.com -->
+                <svg
+                  class="svg-inline--fa fa-times fa-w-10"
+                  aria-hidden="true"
+                  focusable="false"
+                  data-prefix="far"
+                  data-icon="times"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 320 512"
+                  data-fa-i2svg=""
+                >
+                  <path
+                    fill="currentColor"
+                    d="M207.6 256l107.72-107.72c6.23-6.23 6.23-16.34 0-22.58l-25.03-25.03c-6.23-6.23-16.34-6.23-22.58 0L160 208.4 52.28 100.68c-6.23-6.23-16.34-6.23-22.58 0L4.68 125.7c-6.23 6.23-6.23 16.34 0 22.58L112.4 256 4.68 363.72c-6.23 6.23-6.23 16.34 0 22.58l25.03 25.03c6.23 6.23 16.34 6.23 22.58 0L160 303.6l107.72 107.72c6.23 6.23 16.34 6.23 22.58 0l25.03-25.03c6.23-6.23 6.23-16.34 0-22.58L207.6 256z"
+                  ></path></svg
+                ><!-- <i class="far fa-times"></i> Font Awesome fontawesome.com -->
+              </div>
+              <div class="head-search-form">
+                <form
+                  role="search"
+                  method="get"
+                  class="search-form"
+                  action="https://pittsburghkids.org/"
+                >
+                  <label>
+                    <span class="screen-reader-text">Search for:</span>
+                    <input
+                      type="search"
+                      class="search-field"
+                      placeholder="Search …"
+                      value=""
+                      name="s"
+                    />
+                  </label>
+                  <input type="submit" class="search-submit" value="Search" />
+                </form>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- #top-navigation -->
+
+        <nav id="site-navigation" class="main-navigation">
+          <div class="navbar-collapse" id="navbarSupportedContent">
+            <div id="mega-menu-wrap-main_nav" class="mega-menu-wrap">
+              <div class="mega-menu-toggle">
+                <div class="mega-toggle-blocks-left"></div>
+                <div class="mega-toggle-blocks-center"></div>
+                <div class="mega-toggle-blocks-right">
+                  <div
+                    class="mega-toggle-block mega-menu-toggle-animated-block mega-toggle-block-0"
+                    id="mega-toggle-block-0"
+                  >
+                    <button
+                      aria-label="Toggle Menu"
+                      class="mega-toggle-animated mega-toggle-animated-slider"
+                      type="button"
+                      aria-expanded="false"
+                    >
+                      <span class="mega-toggle-animated-box">
+                        <span class="mega-toggle-animated-inner"></span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <ul
+                id="mega-menu-main_nav"
+                class="mega-menu max-mega-menu mega-menu-horizontal nav-menu"
+                data-event="hover_intent"
+                data-effect="fade_up"
+                data-effect-speed="200"
+                data-effect-mobile="disabled"
+                data-effect-speed-mobile="0"
+                data-mobile-force-width="false"
+                data-second-click="go"
+                data-document-click="collapse"
+                data-vertical-behaviour="standard"
+                data-breakpoint="992"
+                data-unbind="true"
+                data-mobile-state="collapse_all"
+                data-mobile-direction="vertical"
+                data-hover-intent-timeout="300"
+                data-hover-intent-interval="100"
+              >
+                <li
+                  class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-14537"
+                  id="mega-menu-item-14537"
+                >
+                  <a href="https://pittsburghkids.org/visit/" class="mega-menu-link" aria-expanded="false" tabindex="0"
+                    >visit</a>
+                </li>
+                <li
+                  class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-14618"
+                  id="mega-menu-item-14618"
+                >
+                  <a href="https://pittsburghkids.org/explore/" class="mega-menu-link" aria-expanded="false" tabindex="0"
+                    >explore</a>
+                </li>
+                <li
+                  class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-14849"
+                  id="mega-menu-item-14849"
+                >
+                  <a href="https://pittsburghkids.org/learn/" class="mega-menu-link" aria-expanded="false" tabindex="0"
+                    >learn</a>
+                  
+                </li>
+                <li
+                  class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-14400"
+                  id="mega-menu-item-14400"
+                >
+                  <a href="https://pittsburghkids.org/membership/" class="mega-menu-link" aria-expanded="false" tabindex="0"
+                    >membership</a>
+                </li>
+                <li
+                  class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-14889"
+                  id="mega-menu-item-14889"
+                >
+                  <a href="https://pittsburghkids.org/support/" class="mega-menu-link" aria-expanded="false" tabindex="0"
+                    >support</span
+                  ></a>
+                </li>
+                <li
+                  class="mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-menu-item-has-children mega-menu-megamenu mega-menu-grid mega-align-bottom-left mega-menu-grid mega-menu-item-14890"
+                  id="mega-menu-item-14890"
+                >
+                  <a href="https://pittsburghkids.org/plan-your-event/" class="mega-menu-link" aria-expanded="false" tabindex="0"
+                    >plan your event</a>
+                </li>
+                <li
+                  class="mega-btn-custom-nav mega-menu-item mega-menu-item-type-custom mega-menu-item-object-custom mega-align-bottom-left mega-menu-grid mega-menu-item-2987 btn-custom-nav"
+                  id="mega-menu-item-2987"
+                >
+                  <a
+                    class="mega-menu-link"
+                    href="https://secure.pittsburghkids.org/?site=cmp&amp;kid=5"
+                    tabindex="0"
+                    data-wpel-link="external"
+                    target="_blank"
+                    rel="external noopener noreferrer"
+                    >tickets</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <!-- #site-navigation -->
+      </div>
+    </div>
+  </div>
+</div>
+
+                `
+                document.getElementById("colophon").innerHTML = `
+                    <section class="top-footer">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-md-8 text-left">
+                                    <div class="row footer-top-1">
+                                        <div class="col-lg-3 col-12 footer-menu mb-3">
+                                            <h4>Links</h4>
+                                            <div class="menu-footer-nav-container">
+                                                <ul id="menu-footer-nav" class="menu">
+                                                    <li id="menu-item-333" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-333">
+                                                        <a href="https://pittsburghkids.org/about/">About</a>
+                                                    </li>
+                                                    <li id="menu-item-13876" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13876">
+                                                        <a href="https://pittsburghkids.org/about/our-commitment-to-jedai/">Our Commitment to Justice, Equity, Diversity, Accessibility &amp; Inclusion</a>
+                                                    </li>
+                                                    <li id="menu-item-3144" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3144">
+                                                        <a href="https://pittsburghkids.org/wp-content/uploads/2025/01/CMP-Map-JAN-2025.pdf">museum map</a>
+                                                    </li>
+                                                    <li id="menu-item-704" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-704">
+                                                        <a href="https://pittsburghkids.org/about/jobs-opportunities/">careers &amp; opportunities</a>
+                                                    </li>
+                                                    <li id="menu-item-14008" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14008">
+                                                        <a href="https://pittsburghkids.org/about/press-room/">Press Room</a>
+                                                    </li>
+                                                    <li id="menu-item-705" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-705">
+                                                        <a href="https://pittsburghkids.org/contact/">contact</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-6 footer-location mb-3">
+                                            <h4>Location</h4>
+                                            <div>
+                                                <p>
+                                                    10 Children’s Way<br>
+                                                    Allegheny Square<br>
+                                                    Pittsburgh, PA 15212<br>
+                                                    412.322.5058
+                                                </p>
+                                            </div>
+                                        </div>                                            
+                                        <div class="col-lg-4 col-6 footer-hours mb-3">
+                                            <h4>Hours</h4>
+                                            <div>
+                                                <p>
+                                                    Monday – Sunday<b><br>
+                                                    </b>10:00 am – 5:00 pm
+                                                </p>
+                                                <p>
+                                                    <em>Closed on select Wednesdays</em>
+                                                </p>
+                                                <p>
+                                                    <strong>MuseumLab Hours:<br>
+                                                    </strong>Saturday &amp; Sunday<br>
+                                                    Noon – 5:00 pm
+                                                </p>
+                                                <p>
+                                                    Check our <a href="https://pittsburghkids.org/events" target="_blank" rel="noopener">Calendar of Events</a><br>
+                                                    for closures and special hours
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row footer-top-2 d-none d-sm-block">
+                                        <div class="members-logo ">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <a class="button" href="https://www.museumlab.org/" target="_blank">
+                                                        <img width="165" src="https://pittsburghkids.org/wp-content/smush-webp/2022/05/ML_RGB_Logo_R_72ppi-with-vert-border.png.webp" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="button" href="https://www.radworkshere.org/" target="_blank">
+                                                        <img width="165" src="https://pittsburghkids.org/wp-content/smush-webp/2021/04/RAD_Primary_Logo_Full_RGB-e1644609975707.png.webp" alt="">
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="button" href="https://www.visitpa.com/" target="_self">
+                                                        <img width="165" src="https://pittsburghkids.org/wp-content/smush-webp/2024/09/Condensed-Logo-Full-Color.jpg.webp" alt="">
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="footer-top-content">
+                                            <p style="text-align: left;">Interested in renting or buying an exhibit or Museum design services?<br>
+                                                Visit <a href="https://www.pittsburghkidsdesign.org/" target="_blank" rel="noopener">Pittsburghkids Design.</a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 text-center text-md-left d-block d-sm-none mb-5">
+                                    <ul class="social-icons col-md-3 d-flex">
+                                        <li>
+                                            <a href="http://www.facebook.com/pittsburghkids">
+                                                <svg class="svg-inline--fa fa-facebook-f fa-w-10" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                                    <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                                </svg>
+                                                <!-- <i class="fab fa-facebook-f"></i> Font Awesome fontawesome.com -->
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://twitter.com/PghKids?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                                <svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                                    <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                                </svg>
+                                                <!-- <i class="fab fa-twitter"></i> Font Awesome fontawesome.com -->
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.instagram.com/pghkids">
+                                                <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                                    <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                                </svg>
+                                                <!-- <i class="fab fa-instagram"></i> Font Awesome fontawesome.com -->
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.youtube.com/user/pghkids">
+                                                <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                                    <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                                </svg>
+                                                <!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-4 text-center text-md-left">
+                                    <div class="cmp-newsletter">
+                                        <h3>Sign up for our newsletter</h3>
+                                        <p><!-- Begin Mailchimp Signup Form --></p>
+                                        <div id="mc_embed_signup" class="mc_embed_signup">
+                                            <form id="mc-embedded-subscribe-form" class="validate" action="https://pittsburghkids.us1.list-manage.com/subscribe/post?u=ec359de5e7dfb6feda8a090a7&amp;id=faa86919ea" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+                                                <div id="mc_embed_signup_scroll">
+                                                    <input id="mce-EMAIL" class="email" name="EMAIL" required="" type="email" placeholder="email address">
+                                                    <br>
+                                                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                                    <p></p>
+                                                    <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                                        <input tabindex="-1" name="b_ec359de5e7dfb6feda8a090a7_faa86919ea" type="text">
+                                                    </div>
+                                                    <div class="clear">
+                                                        <input id="mc-embedded-subscribe" class="button" name="subscribe" type="submit" value="Submit">
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <p><!--End mc_embed_signup--></p>
+                                    </div>
+                                    <div class="d-none d-sm-block">
+                                        <ul class="social-icons col-md-3 d-flex">
+                                            <li>
+                                                <a href="http://www.facebook.com/pittsburghkids">
+                                                    <svg class="svg-inline--fa fa-facebook-f fa-w-10" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fab fa-facebook-f"></i> Font Awesome fontawesome.com -->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="https://twitter.com/PghKids?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+                                                    <svg class="svg-inline--fa fa-twitter fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fab fa-twitter"></i> Font Awesome fontawesome.com -->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.instagram.com/pghkids">
+                                                    <svg class="svg-inline--fa fa-instagram fa-w-14" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fab fa-instagram"></i> Font Awesome fontawesome.com -->
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="http://www.youtube.com/user/pghkids">
+                                                    <svg class="svg-inline--fa fa-youtube fa-w-18" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" data-fa-i2svg="">
+                                                        <path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"></path>
+                                                    </svg>
+                                                    <!-- <i class="fab fa-youtube"></i> Font Awesome fontawesome.com -->
+                                                    </a>
+                                                </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row footer-top-2 d-block d-sm-none">
+                                    <div class="members-logo ">
+                                        <ul class="d-flex">
+                                            <li>
+                                                <a class="button" href="https://www.museumlab.org/" target="_blank">
+                                                    <img src="https://pittsburghkids.org/wp-content/smush-webp/2022/05/ML_RGB_Logo_R_72ppi-with-vert-border.png.webp" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="button" href="https://www.radworkshere.org/" target="_blank">
+                                                    <img src="https://pittsburghkids.org/wp-content/smush-webp/2021/04/RAD_Primary_Logo_Full_RGB-e1644609975707.png.webp" alt="">
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a class="button" href="https://www.visitpa.com/" target="_self">
+                                                    <img src="https://pittsburghkids.org/wp-content/smush-webp/2024/09/Condensed-Logo-Full-Color.jpg.webp" alt="">
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="footer-top-content">
+                                        <p style="text-align: left;">
+                                            Interested in renting or buying an exhibit or Museum design services?<br>
+                                            Visit <a href="https://www.pittsburghkidsdesign.org/" target="_blank" rel="noopener">Pittsburghkids Design.</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="footer-bottom">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-lg-12 copyright">
+                                    <div class="copyr-text">
+                                        <p>© 2025 Children’s Museum of Pittsburgh. All rights reserved.</p>
+                                    </div>
+                                    <div class="menu-copyright-nav-container">
+                                        <ul id="menu-copyright-nav" class="menu">
+                                            <li id="menu-item-708" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-708">
+                                                <a rel="privacy-policy" href="https://pittsburghkids.org/privacy-policy/">Privacy Policy</a>
+                                            </li>
+                                            <li id="menu-item-2981" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2981">
+                                                <a href="https://pittsburghkids.org/wp-content/uploads/2021/04/WEBSITE-TERMS-OF-SERVICE-CHILDRENS-MUSEUM-OF-PITTSBURGH-April-2021.pdf">Terms of Service</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <!--
+                                <div class="col-md-12 copyright  text-center">
+                                        <p>
+                                            Another Creative Technology By <a href="https://creatotech.com/" target="_blank" style="margin-left: 0px;"><img src="https://creatotech.com/wp-content/uploads/2023/03/Creatotech-Full-Color-02-1.png" width="100" ></a>
+                                        </p>
+                                    </div> -->
+                            </div>
+                        </div>
+                    </section>
+                `;
+                let menuBlockEl = document.getElementById("cmp-menu-block");
+
+                function openMenuBlock() {
+                    if (!!menuBlockEl) {
+                        menuBlockEl.classList.add("show");
+                        document.body.classList.add("noscroll");
+                    }
+                }
+
+                function closeMenuBlock() {
+                    if (!!menuBlockEl) {
+                        menuBlockEl.classList.remove("show");
+                        document.body.classList.remove("noscroll");
+                    }
+                }
+
+                
+            importCssFile('https://pittsburghkids.org/wp-content/uploads/tnew/tnew_cmp_css.css');
+            }
+
+                
+
+        </script>
+        
+        <link rel="stylesheet" id="tnew-shared-css"  type="text/css" href="https://pittsburghkids.org/wp-content/uploads/tnew/tnew_shared_css.css" media="all">
+    </body>
+</html>
